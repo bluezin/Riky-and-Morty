@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+
+body {
+  background: radial-gradient(circle, rgb(21, 21, 47) 70%, rgb(29, 26, 59) 90%);
+  word-wrap: break-word;
+  font-family: 'Balsamiq Sans', cursive;
+}
+@media screen and (max-width: 400px){
+  button{
+   font-size: 5px;
+  }
+  .img{
+    padding: 10px;
+    margin: auto;
+    
+  }   
+
+
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor_informacion {
+  color: white;
+  align-self: center;
+}
+.content_1 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+  border-radius: 7px;
+}
+p {
+  font-size: 15px;
+  margin: 16px;
+  }
+
+.Name {
+  overflow-wrap: break-word;
+  font-size: 20px;
+  margin: 25px;
+  font-family: 'Londrina Solid', cursive;  
+  letter-spacing: 1px;
+}
+
+.Name:hover {
+  color: rgb(251, 157, 5);
+}
+p:hover {
+  color: rgb(251, 157, 5);
+}
+
+::placeholder {
+  color: black;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.Logo {
+  align-self: center;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+input {
+  align-self: center;
+  outline: none;
+  width: 50%;
+  border: solid 6px transparent;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  padding: 5px;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+
+button {
+  background-color: rgba(6, 7, 7, 0.4);
+  border: 10px solid transparent;
+  padding: 8px;
+  width: 60%;
+  /* padding-left: 300px;
+  padding-right: 300px; */
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+
+}
+.NotFound{
+  margin: auto;
+  margin-bottom: 50px;
+  color: rgb(241, 66, 95);
+
+}
+
+.NotFound:hover{
+color: white;
+}
